@@ -112,4 +112,8 @@ public class Campo {
     public boolean isMinado() {
         return minado;
     }
+
+    public void setAberto(boolean aberto) {
+        this.aberto = aberto;
+    }
 }

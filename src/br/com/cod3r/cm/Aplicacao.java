@@ -1,9 +1,7 @@
 package br.com.cod3r.cm;
 
-import br.com.cod3r.cm.modelo.Tabuleiro;
+import br.com.cod3r.cm.modelo.*;
 import br.com.cod3r.cm.visao.TabuleiroConsole;
-
-import java.util.Random;
 
 public class Aplicacao {
     public static void main(String[] args) {

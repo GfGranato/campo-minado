@@ -53,8 +53,10 @@ public class TabuleiroConsole {
                     tabuleiro.marcar(xy.next(), xy.next());
                 }
             }
+            System.out.println(tabuleiro);
             System.out.println("Victory!");
         }catch (ExplosaoException e){
+            System.out.println(tabuleiro);
             System.out.println("Wasted!");
         }catch (NoSuchElementException e) {
             System.out.println("Digite um valor valido!");

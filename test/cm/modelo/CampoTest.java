@@ -1,6 +1,5 @@
 package cm.modelo;
 
-import br.com.cod3r.cm.excecao.ExplosaoException;
 import br.com.cod3r.cm.modelo.Campo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -74,7 +73,7 @@ public class CampoTest {
     @Test
     void testeAbrirMinadoNaoMarcado() {
         campo.minar();
-        assertThrows(ExplosaoException.class , () -> {
+        assertThrows(Exception.class , () -> {
             campo.abrir();
         });
     }
